@@ -2,8 +2,14 @@
 skill_id: "give-structural-hint"
 name: "Give Structural Hint"
 skill_type: "instructional"
+stance: "hint"
 tags: ["pedagogy", "structure", "decomposition", "overwhelmed", "scaffolding"]
+course_types: ["humanities"]
+learning_goal_tags: ["decompose-problems", "manage-effort"]
+trigger_signals: ["student-overwhelmed", "student-stuck"]
+chip_icon: "🗺️"
 python_entry: "logic.py"
+version: "0.1.0"
 ---
 
 # Give Structural Hint

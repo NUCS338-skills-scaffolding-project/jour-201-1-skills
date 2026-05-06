@@ -2,8 +2,14 @@
 skill_id: "ask-for-example"
 name: "Ask for Example"
 skill_type: "instructional"
+stance: "socratic"
 tags: ["pedagogy", "abstract-thinking", "concrete-reasoning", "Socratic"]
+course_types: ["humanities"]
+learning_goal_tags: ["construct-arguments", "surface-assumptions"]
+trigger_signals: ["student-abstract-claim", "student-vague-answer"]
+chip_icon: "💡"
 python_entry: "logic.py"
+version: "0.1.0"
 ---
 
 # Ask for Example

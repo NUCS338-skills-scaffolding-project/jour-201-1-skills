@@ -2,8 +2,14 @@
 skill_id: "paragraph-purpose-check"
 name: "Paragraph Purpose Check"
 skill_type: "instructional"
+stance: "socratic"
 tags: ["essay-writing", "structure", "argumentation", "paragraphs"]
+course_types: ["humanities"]
+learning_goal_tags: ["structure-paragraphs", "construct-arguments"]
+trigger_signals: ["student-disconnected-paragraphs", "student-asking-essay-feedback"]
+chip_icon: "📋"
 python_entry: "logic.py"
+version: "0.1.0"
 ---
 
 # Paragraph Purpose Check

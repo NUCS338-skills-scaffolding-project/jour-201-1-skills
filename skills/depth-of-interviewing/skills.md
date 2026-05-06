@@ -2,8 +2,14 @@
 skill_id: "depth-of-interviewing"
 name: "Depth of Interviewing"
 skill_type: "instructional"
+stance: "socratic"
 tags: ["journalism", "interviewing", "open-ended-questions", "listening", "quotes"]
+course_types: ["humanities"]
+learning_goal_tags: ["identify-evidence", "construct-arguments"]
+trigger_signals: ["student-weak-interview", "student-closed-questions"]
+chip_icon: "🎙️"
 python_entry: "logic.py"
+version: "0.1.0"
 ---
 
 # Depth of Interviewing

@@ -2,8 +2,14 @@
 skill_id: "news-judgement"
 name: "News Judgement"
 skill_type: "instructional"
+stance: "socratic"
 tags: ["journalism", "newsworthiness", "story-angle", "5W1H", "reporting"]
+course_types: ["humanities"]
+learning_goal_tags: ["identify-evidence", "detect-ambiguity"]
+trigger_signals: ["student-broad-story-idea", "student-unclear-angle"]
+chip_icon: "📰"
 python_entry: "logic.py"
+version: "0.1.0"
 ---
 
 # News Judgement
